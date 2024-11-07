@@ -2,10 +2,6 @@
 public class Bill3 {
 	public static void main(String[] args) {
 		// To get you started, here is the first line in the program:
-		int bill = Integer.parseInt(args[0]);
-	    String name1 = args[1];
-		String name2 = args[2];
-		String name3 = args[3];
-	    // Replace this comment with the rest of your code
+	system.out.println("china");
 	}
 }
