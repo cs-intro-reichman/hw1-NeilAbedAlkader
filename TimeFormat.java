@@ -23,7 +23,7 @@ public class TimeFormat {
 				System.out.print(hours + ":" + min + "PM");
 			}
 			else
-			System.out.print(hours + ":"+ min+"PM");
+			System.out.print(hours + ":"+ min+" PM");
 		}
 
 
