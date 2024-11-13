@@ -2,15 +2,12 @@
 public class NumWords {
 	public static void main(String args[]) {
 		int num = Integer.parseInt(args[0]);
-		String[] numScaleNames = {"", "Tens", "Hundreds", "Thousands", "Ten Thousands", "Hundred Thousands", "Millions", "Ten Millions", "Hundred Millions", "Billions", "Trillions"};
-		int pointer=0;
-		while(num>0){
-			System.out.print(num%10 + " " + numScaleNames[pointer] + ", ");
-			num -= num%10;
-			num /= 10;
-			pointer++;
+		int hundreds = (num / 100) % 10;
+		int tens = (num / 10) % 10;
+		int ones = num % 10;
 
-		}
+		System.out.println("Hundreds: " + hundreds +", Tens: " + tens+", Ones: " + ones);
+}
 
 
 	}
